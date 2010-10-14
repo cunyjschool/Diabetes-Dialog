@@ -1,42 +1,16 @@
 <?php get_header(); ?>
 
-
-
-
-
-
-
 	<?php $GLOBALS['homepage'] = 'true';?>    
-
-
 
     <!-- Featured Slider -->
 
-
-
     <?php include(TEMPLATEPATH . '/includes/featured.php'); ?>
-
-
-
-    
-
-
 
    <!-- Leaderboard Ad Starts -->
 
-
-
       <?php if (get_option('woo_ad_top') == 'true') include (TEMPLATEPATH . "/ads/home_leaderboard_ad.php"); ?>
 
-
-
    <!-- Leaderboard Ad Ends -->
-
-
-
-
-
-
 
 <div id="main">
 
