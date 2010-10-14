@@ -1,0 +1,120 @@
+body {
+	color: #333333;
+	background-color: #afb9a5 !important;
+	background-image: url(light_green/bg.jpg) !important;
+	background-repeat: repeat-x !important;
+}
+
+a, a:link, a:visited {
+	color:#5d6159;
+}
+
+a:hover, a:active, a.active {
+	color:#0091D5;
+}
+
+ul#nav li.page_item a:hover, ul#nav li.current_page_item a {
+	color:#bfc9b4;
+}
+
+#header {
+	background:transparent url(light_green/bg-header.jpg) no-repeat scroll 0 0 !important;
+}
+
+.menu_class {
+	border:1px solid #6a7065;
+}
+
+.the_menu li {
+	background-color:#7e8479;
+	border-top:1px solid #6a7065;
+}
+
+.the_menu ul.children li {
+	background-color:#8d9388;
+}
+
+.the_menu li a:hover {
+	color: #BFC9B4;
+}
+
+#content {
+	background: url(light_green/bg-content.png);
+}
+
+#featured {
+	background:transparent url(light_green/featured_bg.jpg) no-repeat scroll 0 0 !important;
+	background-color:#dddddd;
+}
+
+ul#showcase li a:hover, ul#showcase li a.active {
+	border:1px solid #0091D5;
+}
+
+div#about {
+	background-color:#565c51 !important;
+}
+
+#about .about_image {
+	border:1px solid #ffffff !important;
+}
+
+#about .about_button {
+	background-color:#bdc7b3 !important;
+	border:1px solid #53594f !important;
+	color:#53594f !important;
+}
+
+#about a.about_button:hover {
+	border:1px solid #6a7065;
+	background-color:#ffffff;
+	color:#6a7065;
+}
+
+#slider_nav {
+	background-color:#565c51;
+}
+
+#home #albums {
+	background-color:#eef4e9 !important;
+}
+
+#albums .entry {
+	background-color:#6a7065 !important;
+	color:#EEEEEE;
+}
+
+#home #albums p.category a {
+	background-color:#565c51 !important;
+}
+
+#commentform #submit {
+	background-color:#6a7065 !important;
+	border:1px solid #53594f !important;
+	color:#FFFFFF;
+}
+
+#blog .box, .archive_options, .widget ul li, .flickr .flickr_photos, #wp-calendar, #wp-calendar caption, form#newsletter {
+	background-color:#e8efe0;
+	border:1px dotted #a2ab99;
+}
+
+.widget ul {border-bottom: 1px dotted #a2ab99;}
+
+#wp-calendar {
+	color:#333333;
+}
+
+#footerWrap ul li.clickready.hover {
+	border: 1px solid #2ba2e1;
+}
+
+#wp-calendar caption {
+	background: #6a7065;
+	color: #fff;
+}
+
+.credits, .credits a {
+	color:#565c51 !important;
+}
+

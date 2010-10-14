@@ -1,0 +1,128 @@
+body {
+	color: #333333;
+	background-color: #86c1da;
+	background-image: url(baby_blue/bg.jpg);
+	background-repeat: repeat-x;
+}
+
+a, a:link, a:visited {
+	color:#5d6159;
+}
+
+a:hover, a:active, a.active {
+	color:#0091D5;
+}
+
+ul#nav li.page_item a:hover, ul#nav li.current_page_item a {
+	color:#abd1e1;
+}
+
+#header {
+	background:transparent url(baby_blue/bg-header.jpg) no-repeat scroll 0 0 !important;
+}
+
+.menu_class {
+	border:1px solid #3B5A68;
+}
+
+.the_menu li {
+	background-color:#527c8e;
+	border-top:1px solid #3B5A68;
+}
+
+.the_menu ul.children li {
+	background-color:#86c1da;
+}
+
+.the_menu li a:hover {
+	color: #cde5ef;
+}
+
+#content {
+	background: url(baby_blue/bg-content.png);
+}
+
+#featured {
+	background:transparent url(baby_blue/featured_bg.jpg) no-repeat scroll 0 0;
+	background-color:#f5ceb0;
+}
+
+.featured_text h2 a {
+	color:#333333 !important;
+}
+
+.featured_text p {
+	color:#527c8e !important;
+}
+
+ul#showcase li a:hover, ul#showcase li a.active {
+	border:1px solid #0091D5;
+}
+
+div#about {
+	background-color:#527c8e;
+}
+
+#about .about_image {
+	border:1px solid #ffffff !important;
+}
+
+#about .about_button {
+	background-color:#bad7e3;
+	border:1px solid #ffffff;
+	color:#53594f;
+}
+
+#about a.about_button:hover {
+	border:1px solid #6a7065;
+	background-color:#ffffff;
+	color:#6a7065;
+}
+
+#slider_nav {
+	background-color:#527c8e;
+}
+
+#home #albums {
+	background-color:#bad7e3;
+}
+
+#albums .entry {
+	background-color:#527c8e !important;
+	color:#EEEEEE;
+}
+
+#home #albums p.category a {
+	background-color:#527c8e !important;
+}
+
+#commentform #submit {
+	background-color:#527c8e;
+	border:1px solid #3B5A68;
+	color:#FFFFFF;
+}
+
+#blog .box, .archive_options, .widget ul li, .flickr .flickr_photos, #wp-calendar, #wp-calendar caption, form#newsletter {
+	background-color:#d9ecf5;
+	border:1px dotted #abd1e1;
+}
+
+.widget ul {border-bottom: 1px dotted #a2ab99;}
+
+#wp-calendar {
+	color:#333333;
+}
+
+#footerWrap ul li.clickready.hover {
+	border: 1px solid #2ba2e1;
+}
+
+#wp-calendar caption {
+	background: #527c8e;
+	color: #fff;
+}
+
+.credits, .credits a {
+	color:#222222 !important;
+}
+

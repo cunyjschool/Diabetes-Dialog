@@ -1,0 +1,73 @@
+@media handheld, projection, screen {
+
+/*------------------------------------------------------------------
+[ IE.CSS ] Stylesheet For Internet Explorer Only
+--------------------------------------------------------------------
+
+[?] HELP
+
+* html div -------> IE6 and lower
+html>body div ---> IE7 and higher
+
+--------------------------------------------------------------------
+
+[Table of contents]
+
+1. GENERAL FIXES
+2. FORMS FIXES
+3. PLUGINS FIXES
+
+
+/*------------------------------------------------------------------
+1. GENERAL FIXES
+------------------------------------------------------------------*/
+
+* html ul li, * html ol li { height: 1% } /* Prevents <li> overheight */
+
+/* General Fixes Below */
+
+* html #tagline { padding-bottom: 0 }
+
+* html div#footerWrap div ul.pages li a { height: 1% }
+* html div#footerWrap div ul.credits li { margin-bottom: -1px }
+
+#content, #contentWrap, #main { z-index: -1 }
+
+* html #nav li.page_item ul li, * html #nav li.page_item ul li a { height: 1% }
+
+*+html .flickr .flickr_photos {padding:15px 0 10px 10px;}
+
+* html #blog .grid_4 { overflow: hidden;}
+*+html #blog .grid_4 { overflow: hidden;}
+
+		
+/*------------------------------------------------------------------
+2. FORMS FIXES
+------------------------------------------------------------------*/
+
+button.button, input.submit { overflow: visible; width: 1 } /* Reset button size */
+input.radio, input.checkbox { margin: -4px } /* Fix for extra margins */
+input.text { margin-bottom: -1px; margin-top: -1px; overflow: hidden; position: relative; z-index: 9999 } /* Fix text inputs position */
+textarea { overflow: auto !important } /* Fix IE6 Textarea */
+
+
+/*------------------------------------------------------------------
+3. PLUGINS FIXES
+------------------------------------------------------------------*/
+
+.replace, .br { line-height: 1 }
+
+/* "Bars" navigation */
+ul.bars li:before { content: '' !important }
+ul.bars li { border-left: 1px solid; padding: 0 4px; }
+
+/* Clearfix */
+.clearfix { zoom: 1; display: block }
+* html .clearfix { height: 1% }
+
+
+/*------------------------------------------------------------------
+   End CSS
+------------------------------------------------------------------*/
+
+}/* end @media */

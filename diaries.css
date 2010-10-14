@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+/*  
+
+
+Author: Designed by <a href="http://rosaleenortiz.net">Rosaleen Ortiz</a> for <a href="http://diabetesdialog.org">Diabetes Dialog in Hunts Point</a>
+
+
+*/	
+.diaries {
+	font-size: 15px;
+	margin-top: 10px;
+	width: 700px;
+	margin-left: 5px;
+	padding: 5px;
+	color: #555555;
+	}
+
+.diaries h1 {
+	font-family:"Comic Sans MS";
+	color: #f67d32;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 26px 10px 25px 0;
+	margin-top: 20px;
+	font-stretch:wider;
+	text-align: left;
+	line-height: 40px;
+	text-shadow:0.1em 0.01em #666;
+	}
+
+.diaries table {
+	padding: 0;
+	background-color: none;
+	width: 100%;
+	}
+	
+.diaries td {
+	width: 300px;
+	background-color: none;
+	padding: 10px;
+	border: 1px solid #addfe3;
+	}
+	
+.diaries tbody {
+	padding: 0;
+	border: none;
+	background-color: #fff;
+	}
+	
+.diaries blockquote {
+	margin: 2px 50px;
+	padding: 10px 10px 20px 10px;
+	background-color: #b2bb1e;
+	color: #333333;
+	}
+	
+.diaries blockquote img {
+	width: 60px;
+	background: #ff;
+	padding: 2px;
+	margin: 0 5px 5px 0;
+	border: 1px solid #ccc;
+	}
+	
+.diaries .day {
+	padding: 10px;
+	margin-top: 50px;
+	}
+	
+
+.diaries .day h2 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align:left;
+	padding: 10px 30px 0 30px;
+	}
+
+.diaries .day h3 {
+	font-size: 15px;
+	font-weight: bold;
+	}
+
+.diaries img {
+	width: 130px;
+	float: left;
+	padding: 35px 25px 30px 25px;
+	background: #fff url(http://diabetesdialog.org/wp-content/themes/aperture/images/diariesimgbackground.jpg) no-repeat;
+	}
+
+.diaries .meal {
+	border: 2px solid #addfe3;
+	display:block;
+	background-color:#addfe3;
+	color: #333333;
+	font-family:"Comic Sans MS";
+	padding: 0px 5px;
+	margin-bottom: 1px;
+	text-align:left
+	}

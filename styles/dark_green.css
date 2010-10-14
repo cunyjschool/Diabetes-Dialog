@@ -1,0 +1,132 @@
+body {
+	color: #333333;
+	background-color: #153a08;
+	background-image: url(dark_green/bg.jpg);
+	background-repeat: repeat-x;
+}
+
+a, a:link, a:visited {
+	color:#2c5d1b;
+}
+
+a:hover, a:active, a.active {
+	color:#214714;
+}
+
+ul#nav li.page_item a:hover, ul#nav li.current_page_item a {
+	color:#82ce64;
+}
+
+#header {
+	background:transparent url(dark_green/bg-header.jpg) no-repeat scroll 0 0 !important;
+}
+
+.menu_class {
+	border:1px solid #143d06;
+}
+
+.the_menu li {
+	background-color:#153a08;
+	border-top:1px solid #143d06;
+}
+
+.the_menu ul.children li {
+	background-color:#2c5d1b;
+}
+
+.the_menu li a:hover {
+	color: #c4f3b4;
+}
+
+#content {
+	background: url(dark_green/bg-content.png);
+}
+
+#featured {
+	background:transparent url(dark_green/featured_bg.jpg) no-repeat scroll 0 0;
+	background-color:#f5ceb0;
+}
+
+.featured_text h2 a {
+	color:#2f1500;
+}
+
+ul#showcase li a:hover, ul#showcase li a.active {
+	border:1px solid #0091D5;
+}
+
+div#about {
+	background-color:#153a08;
+}
+
+#about .about_image {
+	border:1px solid #ffffff;
+}
+
+#about .about_button {
+	background-color:#2c5d1b;
+	border:1px solid #9ad486;
+	color:#ffffff;
+}
+
+#about a.about_button:hover {
+	border:1px solid #6a7065;
+	background-color:#ffffff;
+	color:#6a7065;
+}
+
+#slider_nav {
+	background-color:#153a08;
+}
+
+#home #albums {
+	background-color:#e8f7e4;
+}
+
+#albums .entry {
+	background-color:#2c5d1b;
+	color:#EEEEEE;
+}
+
+#home #albums p.category a {
+	background-color:#2c5d1b;
+}
+
+	#home #albums p.category a:hover {
+		background-color:#153a08;
+	}
+
+#commentform #submit {
+	background-color:#2c5d1b;
+	border:1px solid #214614;
+	color:#FFFFFF;
+}
+
+#blog .box, .archive_options, .widget ul li, .flickr .flickr_photos, #wp-calendar, #wp-calendar caption, form#newsletter {
+	background-color:#e8f7e4;
+	border:1px dotted #aee19d;
+}
+
+ul.news li img {
+	border:1px dotted #aee19d;
+}
+
+.widget ul {border-bottom: 1px dotted #4d2a0e;}
+
+#wp-calendar {
+	color:#333333;
+}
+
+#footerWrap ul li.clickready.hover {
+	border: 1px solid #2ba2e1;
+}
+
+#wp-calendar caption {
+	background: #2c5d1b;
+	color: #fff;
+}
+
+.credits, .credits a {
+	color:#c4f3b4;
+}
+

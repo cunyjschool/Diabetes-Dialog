@@ -1,0 +1,139 @@
+body {
+	color: #333333;
+	background-color: #989791 !important;
+	background-image: url(default/bg.jpg) !important;
+	background-repeat: repeat-x !important;
+}
+
+a, a:link, a:visited {
+	color:#111111;
+}
+
+a:hover, a:active, a.active {
+	color:#0091D5;
+}
+
+ul#nav li.page_item a:hover, ul#nav li.current_page_item a {
+	color:#bfc9b4;
+}
+
+#header {
+	background:transparent url(default/bg-header.jpg) no-repeat scroll 0 0 !important;
+}
+
+#home #header ul#featuredNav li a {
+	background-color:#398ac4;
+	border-color:#3679ab;
+	color:#FFFFFF;
+}
+
+#home #header ul#featuredNav li a:hover {
+	border-color:#2f6287;
+}
+
+.menu_class {
+	border:1px solid #1C1C1C;
+}
+
+.the_menu li {
+	background-color:#302F2F;
+	border-top:1px solid #1c1c1c;
+}
+
+.the_menu ul.children li {
+	background-color:#333333;
+}
+
+.the_menu li a:hover {
+	color: #BFC9B4;
+}
+
+#content {
+	background: url(fresh/bg-content.png);
+}
+
+#featured {
+	background:transparent url(default/featured_bg.jpg) no-repeat scroll 0 0;
+	background-color:#dddddd;
+}
+
+.featured_text h2 a {
+		color:#181818;
+}
+
+ul#showcase li a:hover, ul#showcase li a.active {
+	border:1px solid #0091D5;
+}
+
+div#about {
+	background-color:#181818;
+}
+
+#about .about_image {
+	border:1px solid #ffffff;
+}
+
+#about .about_button {
+	border:1px solid #333333;
+	background-color:#111111;
+	color:#FFFFFF;
+}
+
+#about a.about_button:hover {
+	border:1px solid #111111;
+	background-color:#ffffff;
+	color:#111111;
+}
+
+#slider_nav {
+	background-color:#181818;
+}
+
+#home #albums {
+	background-color:#dddddd; 
+}
+
+#albums .entry {
+	background-color:#181818;
+	color:#EEEEEE;
+}
+
+#albums .entry {
+	padding:10px;
+	color:#eeeeee;
+	border-bottom:none;
+}
+
+#albums .entry a {
+	color:#ffffff;
+}
+
+#home #albums p.category a {
+	background-color:#181818;
+}
+
+#commentform #submit {
+	background-color:#222222;
+	color:#FFFFFF;
+	border:1px solid #111111;
+}
+
+#blog .box, .archive_options, .widget ul li, .flickr .flickr_photos, #wp-calendar, #wp-calendar caption, form#newsletter {
+	background-color:#eeeeee;
+	border:1px dotted #cccccc;
+}
+
+.widget ul {border-bottom: 1px dotted #cccccc;}
+
+#wp-calendar {
+	color:#333333;
+}
+
+#wp-calendar caption {
+	color: #fff;
+}
+
+.credits, .credits a {
+	color:#333333;
+}
+
